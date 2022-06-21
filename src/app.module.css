@@ -1,0 +1,78 @@
+input {
+  padding: 20px;
+  border: 1px solid gray;
+  outline: none;
+  border-radius:  20px 20px ;
+  font-size: 20px;
+  width: 67%;
+}
+.btn {
+  background-color: rgb(0, 153, 255);
+  color: #fff;
+  border: none;
+  padding: 0 30px;
+  border-radius: 20px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  height: 65px;
+  margin-left: 10px;
+}
+.container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.tags {
+  width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; 
+}
+
+.tag {
+  height: 10px;
+  display: flex;
+  align-items: center; 
+  padding: 8px;
+  margin: 20px;
+  color: rgb(0, 101, 252);
+  background-color: rgba(15, 127, 231, 0.342);
+  font-size: 1.5em;
+  border-radius: 15px;
+}
+
+.btnX {
+  margin-left: 26px;
+}
+
+.deleteBtn {
+  border-radius: 10px;
+  margin-bottom: 6px;
+  color: white;
+  background-color: blue;
+  border: none;
+}
+ 
+
+p {
+  margin: 0;
+}
+
+.error {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-top-left-radius: 10px;
+  font-size: 20px;
+  box-shadow: 0px 5px 10px 2px rgba(255, 0, 0, 0.33);
+}
+
+.isError {
+  color: rgb(201, 0, 0);
+  font-style: italic;
+  font-size: 24px;
+}
